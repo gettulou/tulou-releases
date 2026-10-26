@@ -8,6 +8,6 @@ The binaries are free to use; the source is not public.
   Releases marked *Pre-release* are dev builds.
 - **Verify:** each release has `SHA256SUMS`, and each installer a minisign signature (`.sig`) that tulou's
   updater checks before installing.
-- **Updates:** an installed tulou checks `https://tulou.dev/updates/<channel>/latest.json`; the
+- **Updates:** an installed tulou checks `https://updates.tulou.dev/<channel>/latest.json`; the
   `updater-dev` and `updater-prod` entries are channel pointers, not releases. About in tulou can turn the
   check off.
